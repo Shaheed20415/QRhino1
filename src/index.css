@@ -1,0 +1,20 @@
+/* Remove default browser spacing */
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+.ant-tabs-tab {
+  color: #aaa;
+}
+.ant-tabs-tab-active {
+  color: #52c41a !important;
+}
+.ant-tabs-ink-bar {
+  background: #52c41a;
+}
